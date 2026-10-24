@@ -23,5 +23,7 @@ jobs:
 
           other-gcc64-url: https://github.com/KudProject/aarch64-linux-android-4.9
           other-gcc32-url: https://github.com/KudProject/aarch64-linux-android-4.9
+          other-gcc64-branch: master
+          other-gcc32-branch: master
 
           android-version: 8.1
