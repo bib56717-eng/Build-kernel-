@@ -7,7 +7,7 @@ on:
 jobs:
   build-kernel:
     name: Build MT6757CD Kernel 4.4
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Build Kernel
