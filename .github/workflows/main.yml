@@ -17,10 +17,11 @@ jobs:
           branch: oreo-8.1
           config: blackview_defconfig
           arch: arm64
-          aosp-gcc: true
           anykernel3: true
-          python-2.7: true
+          aosp-gcc: false
+        
+
+          other-gcc64-url: https://github.com/KudProject/aarch64-linux-android-4.9
+          other-gcc64-branch: master
+
           android-version: 8.1
-          
-          
-          
