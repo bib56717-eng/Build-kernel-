@@ -14,7 +14,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/bib56717-eng/android_kernel_mediatek_mt6757CD-4.4
-          branch: oreo-8.1
+          kernel-branch: oreo-8.1
           config: blackview_defconfig
           arch: arm64
           anykernel3: true
